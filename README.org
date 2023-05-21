@@ -1,0 +1,8 @@
+* flymake-bean-check
+A flymake backend for bean-check. You can use this alongside [[https://github.com/beancount/beancount-mode][beancount-mode]].
+
+A minimal configuration example is as follows:
+
+#+begin_src elisp
+  (add-hook 'beancount-mode-hook #'flymake-bean-check-enable)
+#+end_src
