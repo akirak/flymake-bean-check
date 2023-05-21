@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "flymake-bean-check": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1684660041,
+        "narHash": "sha256-sApEmgsvSADEuzVpB+5zi2EO03NZuz1d0pY/WwyskfI=",
+        "owner": "akirak",
+        "repo": "flymake-bean-check",
+        "rev": "2c677e17e7f69a238b3b4fe6d0866f699421c85e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "akirak",
+        "repo": "flymake-bean-check",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flymake-bean-check": "flymake-bean-check"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
